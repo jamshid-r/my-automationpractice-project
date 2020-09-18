@@ -17,7 +17,7 @@ List<List<Object>> list = DatabaseUtils.getQueryResultList("select last_name, fi
 List<String>brothers = new ArrayList<String>();
 
 System.out.println(list);
-	
+	//something is added
 }
 	
 	
