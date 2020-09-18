@@ -27,7 +27,7 @@ public class Hooks {
 		Driver.getDriver().manage().timeouts().implicitlyWait(
 				(Long.parseLong(ConfigReader.getConfiguration("implicitTimeout"))), TimeUnit.SECONDS);
 //		Driver.getDriver().manage().window().maximize();
-
+//
 
 	}
 	
