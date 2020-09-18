@@ -18,7 +18,7 @@ List<String>brothers = new ArrayList<String>();
 
 System.out.println(list);
 	//something is added
-	System.out.println("Jenkins is triggered by GitHub push);
+	System.out.println("Jenkins is triggered by GitHub push");
 }
 	
 	
