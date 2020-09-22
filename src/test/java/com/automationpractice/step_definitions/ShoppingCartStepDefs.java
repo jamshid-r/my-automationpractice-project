@@ -50,7 +50,7 @@ public class ShoppingCartStepDefs {
 			String expectedUnitPrice = item.getUnitPrice();
 			String expectedQuantity = item.getQuantity();
 			String expectedTotalBefore = item.getTotalBefore();
-			String expectedTtalAfter = item.getTotalAfter();
+			String expectedTtalAfter = item.getTotalAfter()+"asd";
 		
 		
 		
