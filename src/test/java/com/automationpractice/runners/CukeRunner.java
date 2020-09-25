@@ -10,9 +10,10 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @RunWith (Cucumber.class)
 @CucumberOptions (
 		
-		plugin = {"pretty",
+		plugin = {
 				"html:target/built-in-html-report",
-				"json:target/Cucumber.json "
+				"json:target/Cucumber.json ",
+				"junit:target/Cucumber.xml"
 		
 		},
 					
